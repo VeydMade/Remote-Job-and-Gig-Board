@@ -1,0 +1,104 @@
+/* ================================
+   LIGHT MODE (DEFAULT)
+   ================================ */
+
+:root {
+  --bg: #ffffff;
+  --card-bg: #ffffff;
+
+  --text: #111827;
+  --muted: #6b7280;
+
+  --border: #d1d5db;
+
+  --input-bg: #f9fafb;
+
+  --button-bg: #2563eb;
+  --button-text: #ffffff;
+}
+
+/* ================================
+   DARK MODE (BLUE-GRAY)
+   ================================ */
+
+[data-theme="dark"] {
+  --bg: #0f172a;
+  --card-bg: #0f172a;
+
+  --text: #e5e7eb;
+  --muted: #9ca3af;
+
+  --border: #334155;
+
+  --input-bg: #0f172a;
+
+  --button-bg: #3b82f6;
+  --button-text: #ffffff;
+}
+
+/* ================================
+   GLOBAL BASICS
+   ================================ */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+/* ❌ REMOVE UNDERLINE ON HOVER */
+a:hover {
+  text-decoration: none;
+}
+
+/* ================================
+   INPUTS
+   ================================ */
+
+input,
+textarea,
+select {
+  background-color: var(--input-bg);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.6rem;
+  font-size: 1rem;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--muted);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border-color: #60a5fa;
+}
+
+/* ================================
+   BUTTONS
+   ================================ */
+
+button {
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 0.9rem;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
