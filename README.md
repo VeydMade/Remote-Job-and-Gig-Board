@@ -1,36 +1,108 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Remote Job & Gig Platform
 
-## Getting Started
+> Early-stage remote job board and gig platform focused on frontend architecture, user workflows, platform systems, and scalable feature development.
 
-First, run the development server:
+This project began as an experimental learning project and has continued evolving through ongoing iteration, UI refinement, workflow development, and system expansion.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The platform is being developed to better understand how larger-scale web applications, marketplace systems, and interactive user flows are structured and refined over time.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# Current Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Front-End
 
-## Learn More
+* Next.js
+* React
+* JavaScript
+* HTML5
+* CSS3
 
-To learn more about Next.js, take a look at the following resources:
+## Development Focus
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* Frontend architecture
+* UI/UX systems
+* Marketplace workflow design
+* Scalable page structure
+* Connected navigation systems
+* Responsive layout development
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+# Current Features
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## User & Employer Systems
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* Employer profile systems
+* Worker profile systems
+* Custom profile links
+* Profile image support
+
+## Job Platform Systems
+
+* Job posting workflows
+* Job application workflows
+* Searchable job listings
+* Homepage recent listings feed
+* Quick gigs section
+
+## Platform Structure
+
+* Connected multi-page navigation
+* Responsive frontend layouts
+* Interactive page systems
+* Early backend and dynamic functionality integration
+* Internal bug reporting system
+
+---
+
+# Current Development State
+
+The platform is currently considered an early-stage prototype focused primarily on:
+
+* frontend structure
+* workflow architecture
+* scalable platform systems
+* connected user flows
+* responsive UI systems
+
+The current implementation already includes functional navigation, interactive page systems, listing workflows, and user profile functionality while the platform continues expanding and being refined.
+
+---
+
+# Planned Improvements
+
+Planned future improvements currently include:
+
+* expanded backend infrastructure
+* authentication and account systems
+* advanced filtering and search
+* featured listings
+* moderation/admin tooling
+* accessibility improvements
+* performance optimization
+* modularized/refactored architecture
+* improved scalability systems
+* validation and security implementation prior to production deployment
+
+---
+
+# Long-Term Goals
+
+The long-term goal is to continue expanding the platform into a more polished, scalable, and production-ready system while improving:
+
+* development practices
+* architecture
+* usability
+* responsiveness
+* maintainability
+
+Future plans may also include opening the project to broader community involvement, feedback, and potential open-source collaboration as the platform matures.
+
+---
+
+# Repository Status
+
+Active development prototype and architecture learning project.
+
+The repository is currently focused on iterative development, workflow experimentation, UI refinement, and scalable platform system exploration.
